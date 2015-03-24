@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title i18n="title"></title>
+    <link rel="stylesheet" href="./css/lib/unsemantic-grid-responsive.css">
+    <link rel="stylesheet" href="./css/lib/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/lib/jquery-ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./css/lib/jquery-ui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/lib/menu/default.css">
+    <link rel="stylesheet" href="./css/lib/menu/component.css">
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+            <div class="grid-100">
+                <label>Associação Brasileira de Taekwon-Do</label>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="grid-container">
+            <div class="grid-100">
+                <div class="dl-menuwrapper">
+                    <button class="dl-trigger">Menu</button>
+                    <ul class="dl-menu">
+                        {{#render}}
+                        {{/render}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+    </main>
+    
+    <script src="/referencia/locales/pt-BR.js"></script>
+    <script src="/referencia/js/lib/modernizr.custom.js"></script>
+    <script src="/referencia/js/lib/jquery-2.1.3.min.js"></script>
+    <script src="/referencia/js/lib/jquery-ui.min.js"></script>
+    <script src="/referencia/js/lib/mustache.min.js"></script>
+    <script src="/referencia/js/lib/jquery.history.min.js"></script>
+    <script src="/referencia/js/lib/jquery.dlmenu.js"></script>
+    <script src="/referencia/js/lib/jquery.waypoints.min.js"></script>
+    <script src="/referencia/js/lib/jquery.form.min.js"></script>
+    <script src="/referencia/js/lib/sticky.min.js"></script>
+    <script src="/referencia/js/routes.js"></script>
+    <script src="/referencia/js/main.js"></script>
+    <script src="/referencia/js/utils.js"></script>
+</body>
+</html>
