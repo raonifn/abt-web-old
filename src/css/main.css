@@ -52,16 +52,22 @@ ul {
 }
 
 header {
-    background-color: #003D76;
+    background-color: #DA2D26;
     padding-bottom: 1em;
 }
 
+header label {
+    text-align: center;
+}
+
 nav {
-    background: #B3111E;
+    background: #FFF402;
+    padding: 1em;
+    
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
     padding: .5em 1.5em;
     margin-top: 1em;
 }
